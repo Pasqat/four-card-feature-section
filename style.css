@@ -1,0 +1,104 @@
+body {
+    background: hsl(0, 0%, 98%)  ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 0em;
+}
+
+h3 {
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.container {
+    padding: 5% 2% 5% 2%;
+}
+
+.subtitles {
+    width: 40%;
+    margin: auto;
+}
+/** =================== CARDS =================== */
+
+.deck {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card {
+    min-height: 200px;
+
+    background-color: #fff;
+    text-align: left;
+    padding: 2rem;
+    margin: 1%;
+    display: inline-block;
+    box-shadow:  0 0px 25px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.col-left {
+    flex-grow: 1;
+}
+
+.col-center {
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.col-right {
+    flex-grow: 1;
+}
+
+.card > p {
+    font-size: 0.9rem;
+}
+
+.card > img {
+
+}
+
+#supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+#team {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+#karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+#calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+/* * ================= FOOTER ================== */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
