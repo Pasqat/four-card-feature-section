@@ -25,6 +25,7 @@ h3 {
 
 p {
     font-size: 1rem;
+    columns: hsl(229, 6%, 66%);
 }
 
 .container {
@@ -32,7 +33,7 @@ p {
 }
 
 .subtitles {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 /** =================== CARDS =================== */
