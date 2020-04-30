@@ -47,14 +47,13 @@ p {
 
 .card {
     min-height: 150px;
-    /* width: 17rem; */
+    width: auto;
     background-color: #fff;
     text-align: left;
     padding: 2rem 2rem 1rem 2rem;
     margin-bottom: 6%;
     display: flex;
     flex-direction: column;
-    align-content: ;
     justify-content: flex-start;
     box-shadow:  0 0px 25px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -107,6 +106,7 @@ p {
 }
 
 /* * ================= FOOTER ================== */
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -114,4 +114,49 @@ p {
 
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+
+
+
+  /* * ================= MEDIA QUERY ================== */
+
+  @media (max-width: 769px) {
+
+    .container {
+        padding: 3% 3%;
+    }
+
+    h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1em;
+    }
+    
+    h2 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 1em;
+    }
+
+
+    .subtitles {
+        width: 80%;
+    }
+
+    .deck {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {2
+        box-shadow:  0 0px 15px 4px rgba(0, 0, 0, 0.1);}
+
+    .col {
+        width: 80%;
+        margin: 0;
+
+    }
+
   }
