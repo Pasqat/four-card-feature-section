@@ -8,13 +8,13 @@ body {
 
 h1 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 1em;
 }
 
 h2 {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 0em;
 }
 
@@ -56,7 +56,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    box-shadow:  3px 5px 25px 8px rgba(0, 0, 0, 0.068);
+    box-shadow:  3px 5px 15px 4px hsla(235, 28%, 75%, 0.199);
     border-radius: 5px;
 }
 
